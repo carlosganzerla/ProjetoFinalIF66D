@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoFinalSO", "ProjetoFinalSO\ProjetoFinalSO.csproj", "{8EE1C1AB-B65C-4AEE-9EFE-7355D92CB15F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketListener", "SocketListener\SocketListener.csproj", "{38BFA4EA-8885-4B93-ACF8-68A67AA871F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EE1C1AB-B65C-4AEE-9EFE-7355D92CB15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE1C1AB-B65C-4AEE-9EFE-7355D92CB15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE1C1AB-B65C-4AEE-9EFE-7355D92CB15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE1C1AB-B65C-4AEE-9EFE-7355D92CB15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38BFA4EA-8885-4B93-ACF8-68A67AA871F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BFA4EA-8885-4B93-ACF8-68A67AA871F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BFA4EA-8885-4B93-ACF8-68A67AA871F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BFA4EA-8885-4B93-ACF8-68A67AA871F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FCC5FCB-3E34-408B-A59C-6830DE8B08D3}
+	EndGlobalSection
+EndGlobal
