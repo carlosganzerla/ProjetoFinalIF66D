@@ -29,7 +29,9 @@ namespace ProjetoFinalSO
             listener = new AsynchronousSocketListener(IPAddress.Parse(settings.IPSource), settings.PortSource);
             sender = new SynchronousSenderClient(IPAddress.Parse(settings.IPDestination), settings.PortDestination);
             this.Load += (s, e) => StartListener();
-            btnSend.Enabled = false;
+            lblMax.Text = $"{trbTemp.Maximum} °C";
+            lblMin.Text = $"{trbTemp.Minimum} °C";
+            trbTemp.Enabled = false;
         }
 
         private void StartListener()
@@ -69,7 +71,7 @@ namespace ProjetoFinalSO
             if (disposing)
             {
                 sender.ShutdownClient();
-                listener.ShutdownListener(); 
+                listener.ShutdownListener();
             }
             base.Dispose(disposing);
         }
@@ -89,15 +91,15 @@ namespace ProjetoFinalSO
             StartListener();
         }
 
-        private void btnSend_Click(object sender, EventArgs e)
-        {
-            this.sender.SendMessage(txtSend.Text);
-        }
-
         private void btnConnect_Click(object sender, EventArgs e)
         {
             StartSender();
-            btnSend.Enabled = true;
+            trbTemp.Enabled = true;
+        }
+
+        private void trbTemp_MouseCaptureChanged(object sender, EventArgs e)
+        {
+            this.sender.SendMessage(trbTemp.Value.ToString());
         }
     }
 }
