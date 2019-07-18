@@ -3,16 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="IPDestination" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">192.168.0.25</Value>
+      <Value Profile="(Default)">10.3.20.143</Value>
     </Setting>
     <Setting Name="IPSource" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">192.168.0.10</Value>
+      <Value Profile="(Default)">10.3.20.141</Value>
     </Setting>
     <Setting Name="PortDestination" Type="System.Int32" Scope="Application">
       <Value Profile="(Default)">11000</Value>
     </Setting>
     <Setting Name="PortSource" Type="System.Int32" Scope="Application">
-      <Value Profile="(Default)">11001</Value>
+      <Value Profile="(Default)">10999</Value>
     </Setting>
   </Settings>
 </SettingsFile>

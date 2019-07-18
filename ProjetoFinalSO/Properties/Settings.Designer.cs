@@ -12,7 +12,7 @@ namespace ProjetoFinalSO.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.8.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.9.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,7 +25,7 @@ namespace ProjetoFinalSO.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("192.168.0.25")]
+        [global::System.Configuration.DefaultSettingValueAttribute("10.3.20.143")]
         public string IPDestination {
             get {
                 return ((string)(this["IPDestination"]));
@@ -34,7 +34,7 @@ namespace ProjetoFinalSO.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("192.168.0.10")]
+        [global::System.Configuration.DefaultSettingValueAttribute("10.3.20.141")]
         public string IPSource {
             get {
                 return ((string)(this["IPSource"]));
@@ -52,7 +52,7 @@ namespace ProjetoFinalSO.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("11001")]
+        [global::System.Configuration.DefaultSettingValueAttribute("10999")]
         public int PortSource {
             get {
                 return ((int)(this["PortSource"]));
