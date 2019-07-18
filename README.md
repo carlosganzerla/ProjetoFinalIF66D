@@ -1,5 +1,6 @@
-# ProjetoFinalIF66D
-Projeto final da disciplina de SO UTFPR - 2019 - 1
+# Projeto Final - Sistemas Operacionais (IF66D)
+Projeto final da disciplina de SO UTFPR
+Semestre: 2019 - 1
 
 Alunos: Carlo Sganzerla e Leandro Keiji
 
